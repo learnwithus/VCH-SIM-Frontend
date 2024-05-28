@@ -58,6 +58,14 @@ module.exports = {
       scss: ['./assets/scss/variables.scss', './assets/scss/breakpoints.scss', './assets/scss/animation.scss']
       // scss: 
     },
+	loaders: {
+    		sass: {
+      		implementation: require('sass')
+    		},
+    		scss: {
+      		implementation: require('sass')
+    		}
+  	},
     /*
     ** Run ESLint on save
     */
